@@ -76,6 +76,21 @@
    font-size: 20px;
   
 }
+.font__title{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 36px;
+   font-weight: 600;
+}
+.font__text__title{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   font-weight: 600;
+}
+.font__text{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+}
 .wrapper{
    max-width: 1200px;
    margin: 0 auto;
@@ -89,7 +104,7 @@
    height: 110vh;
 }
 .header__banner__title {
-   padding-top: 180px;
+   padding-top: 160px;
    text-align: center;
    width: 80%;
    margin:0 auto;
@@ -100,7 +115,7 @@
    padding-top: 30px;
    width: 60%;
    margin:0 auto;
-   line-height: 35px;
+   line-height: 30px;
    text-align: center;
 }
 .header__baner__border__text {
@@ -113,10 +128,7 @@
    position: relative;
    width: 251px;
    height: 200px;
-   margin-left: 60px;
-   border-bottom: 2px solid  #fff;
-   border-left: 2px solid  #fff;
-   border-right: 2px solid  #fff;
+   margin-left: 60px;   
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -125,8 +137,6 @@
 
 .border__text__img {
    position: absolute;
-   top:-15px;
-   left: -2px;
 }
 .border__text__number{
    margin-bottom: 15px; 
@@ -134,7 +144,6 @@
 .border__text__text{
    text-align: center;
 }
-
 
 nav{
    border-bottom: 1px solid #AEAEAE;
@@ -148,6 +157,68 @@ nav{
 .nav li{
    padding: 30px 20px;
 }
+.nav a{
+   color:#000;
+   }
 .nav a:hover{
 color:#FFAF3D;
+}
+
+/* ------- INFO  SERVICES ------- */
+
+.info {
+   display: flex;
+   flex-direction: column;
+   
+   
+}
+.info__studio {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 425px;
+}
+.info__stidio__title {
+   width: 20%;
+}
+.info__studio__text__block{
+   position: relative;
+   width: 80%;
+}
+.info__studio__img{
+   position: absolute;
+   top: -48px;
+   left: 0;
+}
+.info__studio__text {
+ width: 90%;
+ padding-left:80px;
+ line-height: 25px;
+}
+.info__services {
+   display: flex;
+  justify-content: space-between;
+}
+.info__services__block {
+   width: 30%;
+   display: flex;
+   flex-direction: column;
+}
+.info__services__block__img {
+}
+.info__services__block__title {
+   padding-top: 10px;
+   font-weight: 600;
+}
+.info__services__block__text {
+   padding-top: 15px;
+   font-size: 14px;
+   line-height: 20px;
+}
+.info__studio__footer {
+   display: none;
+}
+.info__studio__footer__price {
+}
+.info__studio__footer__arrow {
 }
