@@ -119,11 +119,6 @@
    padding:0 20px;
 }
 
-/* main */
-main{
-   display: none;
-}
-
 /* -----HEADER BANNER ------ */
 .header__baner{
    height: 600px;
@@ -146,6 +141,128 @@ main{
    margin-bottom: 5px; 
 }
 
+.nav li{
+   padding: 30px 15px;
+}
 
+/* main */
+main{
+   display: none;
+}
 
+}
+
+@media only screen and (max-width : 576px) {
+/* ---------------- ALL STYLE ----------------- */
+
+.my__font{
+   font-family: 'Exo 2', sans-serif;
+   font-family: 'PT Sans Caption', sans-serif;
+}
+.main__title{
+   font-family: 'Exo 2', sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+   color: #fff;
+}
+.under__main__title{
+   font-family: 'PT Sans Caption', sans-serif;
+   font-weight: normal;
+   font-size: 18px;
+   color: #fff;
+
+}
+.nav_font{
+   font-family: 'PT Sans Caption', sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+  
+}
+.font__title{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 36px;
+   font-weight: 600;
+}
+.font__text__title{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   font-weight: 600;
+}
+.font__text{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+}
+.wrapper{
+   max-width: 1200px;
+   margin: 0 auto;
+   padding:0 20px;
+}
+/* -----HEADER BANNER ------ */
+.header__baner{
+   height: 550px;
+}
+.header__banner__title {
+   padding-top: 120px;
+   width: 100%;
+}
+.header__banner__text {
+   padding-top: 20px;
+   width: 90%;  
+}
+.header__baner__border__text {
+   width: 100%;
+   margin: 50px auto;
+}
+.border__text {   
+   margin-left: 10px;   
+   
+}
+   /* --burger-- */
+.header__burger{
+   display: block;
+   position: absolute;
+   width: 30px;
+   height: 20px;
+   right: 20px;
+   top: 20px;
+   z-index: 1;
+}
+.header__burger span{
+   position: absolute;
+   background-color: black;
+   width: 100%;
+   height: 2px;
+   left: 0px;
+   top:9px;
+   transition: all 0.3s ease 0s;
+}
+.header__burger:before,
+.header__burger:after{
+   content: '';
+   background-color: black;
+   position: absolute;
+   width: 100%;
+   height: 2px;
+   left: 0;
+   transition: all 0.3s ease 0s;
+}
+.header__burger:before{
+   top: 0;
+}
+.header__burger:after{
+   bottom: 0;
+}
+.header__burger.active:before{
+   transform:rotate(45deg);
+   top: 9px;
+}
+.header__burger.active:after{
+   transform: rotate(-45deg);
+   bottom: 9px;
+}
+.header__burger.active span{
+   transform: scale(0);
+}
+/* --nav-- */
 }

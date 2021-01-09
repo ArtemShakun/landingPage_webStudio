@@ -128,7 +128,6 @@
 .border__text {
    position: relative;
    width: 251px;
-   height: 200px;
    margin-left: 60px;   
    display: flex;
    flex-direction: column;
@@ -149,6 +148,7 @@
 nav{
    border-bottom: 1px solid #AEAEAE;
    width: 100%;
+   position: relative;;
    
 }
 .nav{
@@ -163,6 +163,9 @@ nav{
    }
 .nav a:hover{
 color:#FFAF3D;
+}
+.header__burger{
+   display: none;
 }
 
 /* ------- INFO  SERVICES ------- */
