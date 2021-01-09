@@ -1,0 +1,151 @@
+@media only screen and (max-width : 992px) {
+   /* ---------------- ALL STYLE ----------------- */
+
+.my__font{
+   font-family: 'Exo 2', sans-serif;
+   font-family: 'PT Sans Caption', sans-serif;
+}
+.main__title{
+   font-family: 'Exo 2', sans-serif;
+   font-weight: 700;
+   font-size: 38px;
+   color: #fff;
+}
+.under__main__title{
+   font-family: 'PT Sans Caption', sans-serif;
+   font-weight: normal;
+   font-size: 24px;
+   color: #fff;
+
+}
+.nav_font{
+   font-family: 'PT Sans Caption', sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+  
+}
+.font__title{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 36px;
+   font-weight: 600;
+}
+.font__text__title{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   font-weight: 600;
+}
+.font__text{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+}
+.wrapper{
+   max-width: 1200px;
+   margin: 0 auto;
+   padding:0 20px;
+}
+/* -----HEADER BANNER ------ */
+ 
+   .header__banner__title {
+      line-height: 55px;
+   }
+   
+   .header__banner__text {
+      padding-top: 30px;
+      width: 80%;      
+   }
+   .header__baner__border__text {      
+      margin: 40px auto;
+   }
+   .border__text {
+      margin-left: 20px;         
+   }
+   
+   .border__text__img img{
+      width: 100%;
+      
+   }
+   .border__text__number{
+      margin-bottom: 0px; 
+   }
+  
+   
+}
+
+@media only screen and (max-width : 768px) {
+ /* ---------------- ALL STYLE ----------------- */
+
+ .my__font{
+   font-family: 'Exo 2', sans-serif;
+   font-family: 'PT Sans Caption', sans-serif;
+}
+.main__title{
+   font-family: 'Exo 2', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: #fff;
+}
+.under__main__title{
+   font-family: 'PT Sans Caption', sans-serif;
+   font-weight: normal;
+   font-size: 20px;
+   color: #fff;
+
+}
+.nav_font{
+   font-family: 'PT Sans Caption', sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+  
+}
+.font__title{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 36px;
+   font-weight: 600;
+}
+.font__text__title{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   font-weight: 600;
+}
+.font__text{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+}
+.wrapper{
+   max-width: 1200px;
+   margin: 0 auto;
+   padding:0 20px;
+}
+
+/* main */
+main{
+   display: none;
+}
+
+/* -----HEADER BANNER ------ */
+.header__baner{
+   height: 600px;
+}
+.header__banner__title {
+   padding-top: 100px;
+   width: 90%;
+   line-height: 40px;
+}
+.header__banner__text {
+   padding-top: 30px;
+   width: 80%;
+   line-height: 25px;   
+}
+.header__baner__border__text {
+   width: 90%;
+   margin: 30px auto;
+}
+.border__text__number{
+   margin-bottom: 5px; 
+}
+
+
+
+}
