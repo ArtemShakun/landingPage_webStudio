@@ -242,7 +242,9 @@ color:#FFAF3D;
    display: flex;
    flex-direction: column;
    justify-content: center;
-   margin-top: 200px;
+   margin-top: 100px;
+   position: relative;
+   z-index: 1;
 }
 .credo__title {
    text-align: center;
@@ -250,4 +252,35 @@ color:#FFAF3D;
 .credo__text {
    text-align: center;
    padding-top: 65px;
+}
+
+/* -----DEVELOPMEN------ */
+
+.devlopment{
+   position: relative;
+}
+.development__title {
+   background-image: url(../img/developmentIcon.png);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   margin-top: -20px;
+   width: 40%;
+   height: 530px;
+   z-index: -1;
+}
+.font__title {
+}
+.wrapper {
+}
+.development__price {
+}
+.development__price__block {
+}
+.development__price__block__name {
+}
+.development__price__block__link {
+}
+.development__price__block__link__price {
+}
+.development__price__block__link__arrow {
 }
