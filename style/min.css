@@ -1,3 +1,9 @@
+@media only screen and (min-width : 1500px){
+   .header__baner{
+      background-size: 100%;
+   }
+   }
+   
 @media only screen and (max-width : 992px) {
    /* ---------------- ALL STYLE ----------------- */
 
@@ -55,7 +61,7 @@
       width: 80%;      
    }
    .header__baner__border__text {      
-      margin: 40px auto;
+      margin: 110px auto;
    }
    .border__text {
       margin-left: 20px;         
@@ -135,7 +141,7 @@
 }
 .header__baner__border__text {
    width: 90%;
-   margin: 30px auto;
+   margin: 100px auto;
 }
 .border__text__number{
    margin-bottom: 5px; 
@@ -145,10 +151,6 @@
    padding: 30px 15px;
 }
 
-/* main */
-main{
-   display: none;
-}
 
 }
 
@@ -218,6 +220,10 @@ main{
    margin-left: 10px;   
    
 }
+nav{
+   border-bottom: 0px;
+   height: 60px;
+}
    /* --burger-- */
 .header__burger{
    display: block;
@@ -265,4 +271,127 @@ main{
    transform: scale(0);
 }
 /* --nav-- */
+.nav{
+   position: absolute;
+   top: -200px;
+   left: 0;
+   z-index: -1;
+   display: flex;
+   flex-direction: column;
+   background-color: #fff;
+   width: 100%;
+}
+.nav li{
+   padding: 10px 20px;
+}
+.nav.active{
+   top: 50px;
+   z-index: 1;
+   display: flex;
+   flex-direction: column;
+   
+}
+/* ------- INFO  SERVICES ------- */
+
+.info {
+   display: flex;
+   flex-direction: column;  
+   
+}
+
+.info__studio {
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   align-items: flex-start;
+   height: 100%;
+}
+.info__stidio__title {
+   width: 20%;
+}
+.info__studio__text__block{
+   position: relative;
+   width: 95%;
+   margin-top: 50px;
+}
+.info__studio__img{
+   position: absolute;
+   width: 80%;
+   top: 40px;
+   left: 50px;
+}
+.info__studio__img img{
+   width: 100%;
+}
+.info__studio__text {
+ width: 100%;
+ padding-left:100px;
+ line-height: 25px;
+}
+.info__services {
+   display: flex;
+   flex-direction: column;
+}
+.info__services__block {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 40px;
+}
+.info__services__block__img {
+   text-align: center;
+}
+.info__services__block__title {
+   text-align: center;
+}
+.info__services__block__text {
+   text-align: center;
+}
+.info__studio__footer__price {
+}
+.info__studio__footer__arrow {
+}
+
+}
+
+@media only screen and (max-width : 414px){
+   .header__baner{
+      height: 600px;
+   }
+   .header__banner__text {
+      display: none;
+   }
+   .header__baner__border__text {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 70px auto;
+   }
+   .border__text__img img {
+      width: 100%;   
+   }
+   .border__text {
+      width: 45%;
+     
+   }
+   .border__text:last-child{
+      margin-top: 90px;
+   }
+   .border__text__number{
+   font-weight: 600;
+   font-size: 24px;
+   color: #fff;
+   }
+
+   .border__text__text{   
+   font-size: 14px;
+   color: #fff;
+   }
+   /* ------- INFO  SERVICES ------- */
+   .info__studio__text {
+      width: 100%;
+      padding-left:0px;
+      line-height: 25px;
+     }
 }
