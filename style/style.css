@@ -331,3 +331,46 @@ color:#FFAF3D;
 .development__price__block__link__arrow {   
    align-self:center;
 }
+/* ----- ADD BLOCK ----- */
+
+.add__block {
+   display: flex;
+   margin-top: 100px;
+}
+.add__block__text {
+   background-image: url(../img/BE\ THE\ FIRST.svg);
+   background-repeat: no-repeat;
+   background-size: 80% auto;
+   width: 60%;
+}
+.add__block__text__title {
+   padding: 15px 0px 0px 65px;
+}
+.add__block__text__text {
+   width: 80%;
+  padding:15px 0px 0px 65px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+   line-height: 32px;
+}
+.add__block__img {
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.add__block__img__google {
+   width: 210px;
+}
+.add__block__img__google img{
+   width: 100%;
+}
+.add__block__img__yndex {
+   margin-top: 40px;
+   width: 210px;
+}
+.add__block__img__yndex img{
+   width: 100%;
+}

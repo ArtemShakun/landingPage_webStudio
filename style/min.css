@@ -215,7 +215,17 @@
    font-size: 14px;
    font-weight: 500;
 }
-
+/* ----- ADD BLOCK ----- */
+.add__block__text {
+   background-size: 90% auto;
+   width: 80%;
+}
+.add__block__text__title {
+   padding: 5px 0px 0px 35px;
+}
+.add__block__text__text {
+  padding:5px 0px 0px 35px;
+}
 }
 
 @media only screen and (max-width : 576px) {
@@ -246,7 +256,7 @@
 }
 .font__title{
    font-family: Arial, Helvetica, sans-serif;
-   font-size: 36px;
+   font-size: 30px;
    font-weight: 600;
 }
 .font__text__title{
@@ -473,6 +483,45 @@ nav{
    font-size: 24px;
    font-weight: 500;
 }
+
+/* ----- ADD BLOCK ----- */
+.add__block {
+   display: flex;
+   flex-direction: column;
+   margin-top: 70px;
+}
+.add__block__text {
+   background-size: 100% auto;
+   width: 100%;
+}
+.add__block__text__title {
+   text-align: center;
+}
+.add__block__text__text {
+   width: 100%;
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}
+.add__block__img {
+   display: flex;
+   flex-direction:row;
+   justify-content: space-between;
+   width: 100%;
+
+}
+.add__block__img__google {
+   width: 50%;
+}
+.add__block__img__google img{
+   width: 100%;
+}
+.add__block__img__yndex {
+   margin-top: 0px;
+   width: 50%;
+}
+.add__block__img__yndex img{
+   width: 100%;
+}
 }
 
 @media only screen and (max-width : 414px){
@@ -521,7 +570,6 @@ nav{
       height: 350px;
        
     }
-    
     
     .development__price__block__img img{
        
