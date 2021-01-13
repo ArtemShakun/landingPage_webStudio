@@ -207,6 +207,7 @@ color:#FFAF3D;
 .info__services {
    display: flex;
   justify-content: space-between;
+  margin-top: 100px;
 }
 .info__services__block {
    width: 30%;
@@ -232,7 +233,7 @@ color:#FFAF3D;
 .info__studio__footer__arrow {
 }
 
-/* -----CREDO COMPANY */
+/* -----CREDO COMPANY------ */
 .cred__banner{
    background-image: url('../img/laptop_background.jpg');
    background-position: center;
@@ -244,7 +245,7 @@ color:#FFAF3D;
    justify-content: center;
    margin-top: 100px;
    position: relative;
-   z-index: 1;
+   z-index: -1;
 }
 .credo__title {
    text-align: center;
@@ -257,30 +258,73 @@ color:#FFAF3D;
 /* -----DEVELOPMEN------ */
 
 .devlopment{
-   position: relative;
 }
 .development__title {
-   background-image: url(../img/developmentIcon.png);
-   background-size: 100%;
-   background-repeat: no-repeat;
-   margin-top: -20px;
-   width: 40%;
-   height: 530px;
+   position: relative;
+}
+.development__title__text{
+   color: #fff;
+   padding: 70px 0px 0px 110px;
+}
+.development__title__img{
+   position: absolute;
+   top: -50px;
    z-index: -1;
+   width: 566px;
 }
-.font__title {
+.development__title__img img{
+   width: 100%;
 }
-.wrapper {
-}
+
+
 .development__price {
+   display: flex;
+   justify-content: flex-start;
+   margin: 50px 0px 0px 50px;
 }
 .development__price__block {
+  position: relative;
+  width: 365px;
+  margin-right: 20px;
+   
+}
+
+.development__price__block__img{   
+   position: absolute;
+   z-index: -1;
+}
+.development__price__block__img img{
+   width: 100%;
 }
 .development__price__block__name {
+   font-family: 'Exo 2', sans-serif;
+   font-family: 'PT Sans Caption', sans-serif;
+   color: white;
+   font-size: 50px;
+   font-weight: 900;
+   letter-spacing: 10px;
+   text-shadow: black;
+   margin-left: 40px;
+   padding: 60px 0px 20px 0px;
+   width: 80%;
+   border-bottom: 2px solid #fff;
 }
 .development__price__block__link {
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin: 50px auto;
 }
 .development__price__block__link__price {
+   border: 2px solid #fff;
+   width: 200px;
+   height: 50px;
+   padding: 15px;
+   color: #fff;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 24px;
+   font-weight: 500;
 }
-.development__price__block__link__arrow {
+.development__price__block__link__arrow {   
+   align-self:center;
 }

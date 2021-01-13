@@ -74,8 +74,11 @@
    .border__text__number{
       margin-bottom: 0px; 
    }
-  
-   
+  /* ------- INFO  SERVICES ------- */
+   .info__services {
+     
+     margin-top:0px;
+   }
 }
 
 @media only screen and (max-width : 768px) {
