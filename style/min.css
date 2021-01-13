@@ -104,7 +104,18 @@
    font-size: 18px;
   
 }
-
+/* -----OUR__PROJECT------ */
+.our__project__title {
+   background-size: 60%;
+}
+.our__project__img__left__bottom img{
+   width: 50%;
+   height: 200px;
+}
+.our__project__img__right__bottom img{
+   width: 50%;
+   height: 203px;
+}
 }
 
 @media only screen and (max-width : 768px) {
@@ -225,6 +236,19 @@
 }
 .add__block__text__text {
   padding:5px 0px 0px 35px;
+}
+/* -----OUR__PROJECT------ */
+
+.our__project__title {
+   padding-top: 40px;
+}
+.our__project__img__left__bottom img{
+   width: 49%;
+   height: 150px;
+}
+.our__project__img__right__bottom img{
+   width: 49%;
+   height: 153px;
 }
 }
 
@@ -522,6 +546,26 @@ nav{
 .add__block__img__yndex img{
    width: 100%;
 }
+
+/* -----OUR__PROJECT------ */
+.our__project__title {
+   background-size: 70%;
+   height: 80px;
+   padding-top: 20px;
+}
+
+.our__project__img {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+.our__project__img__left__bottom img{
+   height: 230px;
+}
+.our__project__img__right__bottom img{
+   height: 230px;
+}
+
 }
 
 @media only screen and (max-width : 414px){
@@ -597,4 +641,11 @@ nav{
        font-size: 24px;
        font-weight: 500;
     }
+/* -----OUR__PROJECT------ */
+    .our__project__img__left__bottom img{
+      height: 180px;
+   }
+   .our__project__img__right__bottom img{
+      height: 180px;
+   }
 }

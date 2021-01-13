@@ -374,3 +374,77 @@ color:#FFAF3D;
 .add__block__img__yndex img{
    width: 100%;
 }
+
+/* -----OUR__PROJECT------ */
+
+.our__project {
+   margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+}
+.our__project__title {
+   background-image: url(../img/our_project/OUR_PROJECTS.png);
+   background-repeat: no-repeat;
+   background-size: 50%;
+   background-position: center;
+   background-color: #2B2E65;
+   height: 120px;
+   color: #fff;
+   text-align: center;
+   text-shadow: black;
+   padding-top: 30px;
+
+}
+.our__project__img {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+.our__project__img__left {
+   display: flex;
+   flex-direction: column;
+}
+.our__project__img__left__top {
+   width: 100%;
+}
+.our__project__img__left__top img{
+   width: 100%;
+}
+
+.our__project__img__left__bottom {
+   width: 100%;
+   
+}
+.our__project__img__left__bottom img{
+   width: 50%;
+   height: 300px;
+}
+.our__project__img__left__bottom img:last-child{
+   width: 49%;
+}
+
+
+.our__project__img__right {
+   display: flex;
+   flex-direction: column;
+}
+
+
+.our__project__img__right__top{
+   width: 100%;
+}
+.our__project__img__right__top img{
+   width: 100%;
+}
+
+.our__project__img__right__bottom {
+   width: 100%;
+   
+}
+.our__project__img__right__bottom img{
+   width: 50%;
+   height: 303px;
+}
+.our__project__img__right__bottom img:last-child{
+   width: 49%;
+}
