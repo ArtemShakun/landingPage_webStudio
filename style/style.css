@@ -285,6 +285,7 @@ color:#FFAF3D;
 .development__price__block {
   position: relative;
   width: 365px;
+  
   margin-right: 20px;
    
 }
@@ -292,9 +293,11 @@ color:#FFAF3D;
 .development__price__block__img{   
    position: absolute;
    z-index: -1;
+  
 }
 .development__price__block__img img{
    width: 100%;
+   height: 320px;
 }
 .development__price__block__name {
    font-family: 'Exo 2', sans-serif;
