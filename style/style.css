@@ -448,3 +448,129 @@ color:#FFAF3D;
 .our__project__img__right__bottom img:last-child{
    width: 49%;
 }
+.our__project__more{
+   background-color: #2B2E65;
+   height: 120px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.our__project__more a{
+   background: rgba(255,255,255, 0.5);
+   color: #fff;
+   text-align: center;
+   padding: 20px 30px;
+   border-radius: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+   font-size: 24px;
+   
+}
+
+/* -----ADAPTIVE------ */
+
+.adaptive {
+   margin-top: 100px;
+   display: flex;
+   position: relative;
+}
+.adaptive__text{
+   width: 50%;
+}
+.adaptive__text__title {
+   background-image: url(../img/ADAPTATE.png);
+   background-repeat: no-repeat;
+   background-size: 80%;   
+   padding: 15px 0px 20px 65px;
+
+}
+.adaptive__text__text {
+   padding:15px 0px 0px 65px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+   line-height: 32px;
+}
+.adaptive__img {
+   position: absolute;
+   right: 0px;
+   top: 50px;
+   width: 40%;
+}
+.adaptive__img img{
+   width: 100%;
+}
+
+/* -----TRADE_IN----- */
+
+.trade__in {
+   margin-top: 150px;
+   background-image: url(../img/tradeInFone.png);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   display: flex;
+   flex-direction: column;
+}
+.trade__in__title {
+   text-align: center;
+   text-transform: uppercase;
+   color: #fff;
+   padding-top: 60px;
+   font-weight: 700;
+   text-shadow: black;
+
+}
+.trade__in__all__block{
+   display: flex;
+   justify-content:space-between;
+   padding-top: 100px;
+   width: 100%;
+}
+.trade__in__block{
+   width: 30%;
+}
+.trade__in__block__title {
+   display: flex;
+   padding-bottom: 20px;
+   height: 70px;
+}
+.trade__in__block__title__t{
+   font-family: 'PT Sans Caption', sans-serif;
+   align-self: center;
+   color: #fff;
+   font-weight: 800;
+   padding-left: 20px;
+}
+.trade__in__block__title__img {
+   width: 70px;
+}
+.trade__in__block__title__img img {
+   width: 100%;
+}
+.trade__in__block__text {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   line-height: 20px;
+   color: #fff;
+   padding-top: 40px;
+}
+.trade__in__button{
+   background-color: #FFAF3D;
+   width: 330px;
+   text-align: center;
+   margin: 80px auto;
+   padding:25px;
+   border-radius: 10px;
+}
+
+.trade__in__button a{
+   color: #fff;
+   font-weight: 700;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   padding:25px;
+   width: 100%;
+}

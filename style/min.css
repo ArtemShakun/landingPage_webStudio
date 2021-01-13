@@ -2,6 +2,9 @@
    .header__baner{
       background-size: 100%;
    }
+   .trade__in {
+      margin-top: 350px;
+   }
    }
    
 @media only screen and (max-width : 992px) {
@@ -115,6 +118,37 @@
 .our__project__img__right__bottom img{
    width: 50%;
    height: 203px;
+}
+
+/* -----ADAPTIVE------ */
+
+.adaptive {
+   margin-top: 50px;
+}
+.adaptive__text{
+   width: 40%;
+}
+.adaptive__text__title {
+   background-size: 90%;
+     padding: 5px 0px 0px 65px;
+
+}
+
+/* -----TRADE_IN----- */
+.trade__in__button{
+   width: 270px;
+   text-align: center;
+   margin: 60px auto;
+   padding:20px;
+   border-radius: 10px;
+}
+.trade__in__button a{
+   color: #fff;
+   font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   padding:20px;
+   width: 100%;
 }
 }
 
@@ -249,6 +283,17 @@
 .our__project__img__right__bottom img{
    width: 49%;
    height: 153px;
+}
+.our__project__more a{  
+   font-size: 18px;
+}
+/* -----ADAPTIVE------ */
+.adaptive__text{
+   width: 55%;
+}
+.adaptive__text__title {
+   background-size: 90%;   
+   padding: 15px 0px 0px 65px;
 }
 }
 
@@ -565,7 +610,76 @@ nav{
 .our__project__img__right__bottom img{
    height: 230px;
 }
+.our__project__more{
+   height: 80px;
+   
+   
+}
+.our__project__more a{
+    padding: 15px 20px;
+   border-radius: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+   text-transform: uppercase;
+   font-size: 12px;
+   
+}
 
+/* -----ADAPTIVE------ */
+.adaptive {
+   margin-top: 40px;
+   display: flex;
+   flex-direction: column;
+   
+}
+.adaptive__text{
+   width: 100%;
+}
+.adaptive__text__title {
+   background-size: 70%;   
+   padding: 15px 0px 15px 65px;
+   background-position: 50% 0%;
+   text-align: center;
+}
+.adaptive__text__text {
+   padding:15px 0px 0px 0px;
+  text-align: center;
+}
+.adaptive__img {
+   position: relative;
+   right: -20px;
+   top: 10px;
+   width: 100%;
+}
+
+/* -----TRADE_IN----- */
+
+.trade__in__all__block{
+   padding-top: 30px;
+   flex-direction: column;
+}
+.trade__in__block{
+   width: 100%;
+}
+.trade__in__block__title {
+   display: flex;
+   padding-bottom: 0px;
+   height: 20px;
+}
+.trade__in__block__title__t{
+   padding-top: 20px;
+}
+.trade__in__button{
+   width: 220px;
+   margin: 60px auto;
+   padding:15px;
+}
+
+.trade__in__button a{
+   font-weight: 600;
+   font-size: 14px;
+   padding:15px;
+}
 }
 
 @media only screen and (max-width : 414px){
