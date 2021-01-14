@@ -150,6 +150,10 @@
    padding:20px;
    width: 100%;
 }
+/* ------ BE CAREFUL ------ */
+.be__careful__blocks__left__title {
+      background-size: 85%;
+}
 }
 
 @media only screen and (max-width : 768px) {
@@ -294,6 +298,15 @@
 .adaptive__text__title {
    background-size: 90%;   
    padding: 15px 0px 0px 65px;
+}
+/* ------ BE CAREFUL ------ */
+.be__careful__blocks__left__title {
+   background-size: 100%;
+   padding: 5px 0px 10px 25px;
+
+}
+.be__careful__blocks__left__text{
+   padding: 5px 0px 10px 25px;
 }
 }
 
@@ -626,6 +639,7 @@ nav{
 }
 
 /* -----ADAPTIVE------ */
+
 .adaptive {
    margin-top: 40px;
    display: flex;
@@ -637,12 +651,12 @@ nav{
 }
 .adaptive__text__title {
    background-size: 70%;   
-   padding: 15px 0px 15px 65px;
+   padding: 0px 0px 0px 0px;
    background-position: 50% 0%;
    text-align: center;
 }
 .adaptive__text__text {
-   padding:15px 0px 0px 0px;
+   padding:0px 0px 0px 0px;
   text-align: center;
 }
 .adaptive__img {
@@ -679,6 +693,31 @@ nav{
    font-weight: 600;
    font-size: 14px;
    padding:15px;
+}
+
+/* ------ BE CAREFUL ------ */
+
+.be__careful__blocks {
+   flex-direction: column;
+}
+.be__careful__blocks__left {
+   width: 100%;
+}
+.be__careful__blocks__left__title {
+   background-image: url(../img/BE_CAREFUL.png);
+   background-repeat: no-repeat;
+   background-size: 90%;
+   background-position: center;
+   padding: 15px 0px;
+   text-align: center;
+
+}
+.be__careful__blocks__left__text{
+   padding: 20px 0px 0px 0px;
+  text-align: center;
+}
+.be__careful__blocks__right {
+   width: 100%;
 }
 }
 

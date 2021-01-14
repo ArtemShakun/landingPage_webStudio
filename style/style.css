@@ -574,3 +574,41 @@ color:#FFAF3D;
    padding:25px;
    width: 100%;
 }
+
+/* ------ BE CAREFUL ------ */
+
+.be__careful {
+   margin-top:100px;
+}
+.be__careful__blocks {
+   display: flex;
+   justify-content: space-between;
+}
+.be__careful__blocks__left {
+   width: 50%;
+}
+.be__careful__blocks__left__title {
+   background-image: url(../img/BE_CAREFUL.png);
+   background-repeat: no-repeat;
+   background-size: 70%;
+   padding: 5px 0px 10px 50px;
+
+}
+.be__careful__blocks__left__text{
+   padding: 5px 0px 10px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+   line-height: 32px;
+}
+
+.be__careful__blocks__right {
+   width: 50%;
+}
+.be__careful__blocks__right__img {
+   width: 80%; 
+   margin: 0 auto;
+}
+.be__careful__blocks__right__img img{
+   width: 100%; 
+}
